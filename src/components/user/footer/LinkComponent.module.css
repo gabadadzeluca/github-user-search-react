@@ -1,0 +1,30 @@
+.link{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    font-size: 1.3rem;
+    font-weight: var(--medium);
+    padding: 0.5rem 0;
+    color: var(--text-color);
+}
+
+.link>a{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+.link>a:hover{
+    text-decoration: underline;
+}
+.link>img{
+    margin-right: 1rem;
+    filter: var(--brightness);
+}
+.unavilable{
+    opacity: 0.6;
+}
+
+@media screen and (min-width: 700px) {
+    .link{
+        font-size: 1.5rem;
+    }
+}

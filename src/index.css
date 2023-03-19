@@ -1,13 +1,42 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,700;1,400&display=swap');
+
+html{
+  font-size: 62.5%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  font-family: 'Space Mono', monospace;
 }
+
+*, *::after, *::before{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+:root{
+  --bg-color: #F2F2F2;
+  --card-color: #FEFEFE;
+  --secondary-color: #F6F8FF;
+  --blue: #0079FF;
+  --text-color: #4B6A9B;
+  --bold-text-color: #2B3442;
+  --light-text-color: #697C9A; 
+  --medium: 400;
+  --bold: 700;
+  --heading-color: #222731;
+  --box-shadow: 0 1.6rem 3rem 1rem rgba(70, 96, 187, 0.198567);
+}
+
+:root.darkMode{
+  --bg-color: #141D2F;
+  --secondary-color: #141D2F;
+  --card-color: #1E2A47;
+  --text-color: #FFFFFF;
+  --light-text-color: #FFFFFF;
+  --bold-text-color: #FFFFFF;
+  --heading-color: #FFFFFF;
+  --brightness: brightness(100);
+  --box-shadow: 0;
+}
+

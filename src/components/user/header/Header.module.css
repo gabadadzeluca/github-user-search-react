@@ -1,0 +1,51 @@
+.profilePic{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    margin-right: 2rem;
+}
+.nameContainer{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin: 2rem 0;
+}
+.name{
+    color: var(--bold-text-color);
+    font-size: 1.6rem;
+}
+.login{
+    color: var(--blue);
+}
+.date{
+    color: var(--light-text-color);
+}
+
+.login, .date{
+    font-weight: var(--medium);
+    font-weight: 1.3rem;
+}
+
+@media screen and (min-width: 700px) {
+    .login, .date{
+        font-size: 1.5rem;
+    }
+    .name{
+        font-size: 2.6rem;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .nameContainer{
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+    }
+    .nameAndDateDiv{
+        display: inline-flex;
+        align-items: baseline;
+        justify-content: space-between;
+    }
+    .profilePic{
+        width: 11.7rem;
+        height: 11.7rem;
+    }
+}

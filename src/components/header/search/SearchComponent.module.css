@@ -1,0 +1,46 @@
+.searchContainer{
+    border: none;
+    background-color: var(--card-color);
+    border-radius: 1.5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 6rem;
+    margin: 2rem 0;
+    padding: 0 1rem 0 3.2rem;
+}
+
+.searchBtn{
+    background-color: var(--blue);
+    border-radius: 1rem;
+    font-size: 1.4rem;
+    font-family: inherit;
+    color: #FFFFFF;
+    padding: 1.25rem 1.4rem;
+    border: none;
+    cursor: pointer;
+}
+.input{
+    border: none;
+    color: var(--text-color);
+    background-color: inherit;
+    background-image: url('../../../assets/icon-search.svg');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 3rem;
+    width: 70%;
+    cursor: pointer;
+}
+.input:focus{
+    outline: none;
+}
+
+@media screen and (min-width: 700px) {
+    .input{
+        font-size: 1.8rem;
+    }
+    .searchBtn{
+        font-size: 1.6rem;
+    }
+}

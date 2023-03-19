@@ -1,0 +1,19 @@
+.bio{
+    font-weight: var(--medium);
+    color: var(--text-color);
+    font-weight: 1.3rem;
+}
+.statsContainer{
+    display: flex;
+    background-color: var(--secondary-color);
+    justify-content: space-around;
+    border-radius: 1rem;
+    padding: 2rem 0;
+    margin: 2rem 0;
+}
+
+@media screen and (min-width: 700px) {
+    .bio{
+        font-size: 1.5rem;
+    }
+}
