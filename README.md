@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub]()
-- Live Site URL: [Live URL]()
+- Solution URL: [GitHub](https://github.com/gabadadzeluca/github-user-search-react)
+- Live Site URL: [Live URL](https://gabadadzeluca.github.io/github-user-search-react/)
 
 ## My process
 
